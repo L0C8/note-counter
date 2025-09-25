@@ -3,7 +3,11 @@ package note.counter;
 public class NoteCounter {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        try{
+            String test1 = note.counter.DataCipher.AESCipherPass.encrypt("ttes","test");
+            System.out.println(test1);
+        } catch(Exception e){
+            System.out.println("error");
+        }
     }
-    
 }
