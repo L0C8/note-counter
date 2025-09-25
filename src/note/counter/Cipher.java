@@ -1,5 +1,5 @@
 package note.counter;
 
-public class model {
+public class Cipher {
     
 }
